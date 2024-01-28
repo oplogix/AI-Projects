@@ -25,21 +25,22 @@ Matthew Berman does a great job explaining basics of LM Studio here: [https://ww
    ```bash
    git clone https://github.com/your-username/voice-llm.git
    cd voice-llm
-
+   ```
 2. Install the dependencies
    ```bash
    pip install -r requirements.txt
-   
+   ```
 3. Run the `voice-llm.py`
   ```bash
   python3 voice-llm.py
-
+   ```
 ## Configuration
 Make sure to point the program to the local server:
   ```bash
   client = OpenAI(base_url="http://localhost:5000/v1", api_key="not-needed")
-
+   ```
 ## Future Plans
-1. Add some compatibility with other devices that are also offline
-2. 
+1. Main task of adding trigger word for hands-off functionality. 
+2. Possible plans for Facial Recognition
+3. Add some compatibility with other devices that are also offline
 
