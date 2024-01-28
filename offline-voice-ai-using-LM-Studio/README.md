@@ -1,4 +1,4 @@
-# Offline Voice LLM - Voice-Prompted Language Model
+# Voice LLM - Voice-Prompted Language Model
 
 Voice LLM is a Python project that utilizes OpenAI's language model to create a voice-activated intelligent assistant. This assistant is designed to provide well-reasoned answers that are both correct and helpful.
 
@@ -43,4 +43,5 @@ Make sure to point the program to the local server:
 1. Main task of adding trigger word for hands-off functionality. 
 2. Possible plans for Facial Recognition
 3. Add some compatibility with other devices that are also offline
+4. Make fully offline by switching off `speech-recognition` module
 
